@@ -1,0 +1,77 @@
+
+body{
+  font-family: Helvetica, sans-serif;
+  width: auto;
+}
+
+main{
+  width: auto;
+  position: relative;
+  top: 90px;
+}
+
+#topbar{
+  position: absolute;
+  width: 100%;
+  top: 0px;
+  padding: 20px;
+}
+
+.left_links{
+  width: auto;
+  display: flex;
+  position: absolute;
+  top:20px;
+}
+
+.right_links{
+  width: 200px;
+  position: absolute;
+  right: 100px;
+  top:15px;
+  display: flex;
+  align-items: center;
+}
+
+a{
+  padding: 10px;
+  color: #545454;
+  text-decoration: none;
+  font-size: 10pt;
+}
+
+a:hover{
+  text-decoration: underline;
+  color: #242424;
+}
+
+.topnav{
+  padding: 10px;
+}
+
+.btn{
+  background: transparent;
+  border: none;
+  color: #737373;
+}
+
+.btn:hover{
+  color:#242424;
+}
+.btn:active{
+  text-decoration: none;
+}
+
+.fas{
+  font-size: 3em;
+}
+
+.middle_pic{
+  width: 28%;
+  display: block;
+  margin: auto;
+}
+
+#google_logo_main{
+
+}
