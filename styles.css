@@ -66,6 +66,42 @@ a:hover{
   font-size: 3em;
 }
 
+.fa-microphone-alt{
+  font-size: 2em;
+}
+
+.fa-microphone-alt:hover{
+  animation: changeColour 5s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  border-radius: 25px;
+  box-shadow: 0px 0px 5px 5px #F3F3F3;
+  background-color: #F3f3f3;
+}
+
+@keyframes changeColour {
+  0% {
+    color: red;
+  }
+
+  25%{
+    color: yellow;
+  }
+
+  50%{
+    color: blue;
+  }
+
+  75%{
+    color: green;
+  }
+
+  100%{
+    color: red;
+  }
+
+}
+
 .middle_pic{
   width: 28%;
   display: block;
@@ -74,4 +110,58 @@ a:hover{
 
 #google_logo_main{
 
+}
+
+.search_boundary{
+  display: block;
+  width: 100%;
+}
+
+.search_area{
+  display: flex;
+  height: 40px;
+  width: 550px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  border: 1px solid #E3E3E3;
+  border-radius: 40px;
+}
+
+.search_area:hover{
+  box-shadow: 0px 2px 5px 3px #F3F3F3;
+}
+
+.magnifying_glass{
+  position: relative;
+  display: flex;
+  left: 3%;
+  top: 8px;
+  overflow: hidden;
+  height: 20px;
+  width: 25px;
+  fill: #B3B3B3;
+  margin-right: 35px;
+}
+
+.search_something{
+  border-style: none;
+  display: flex;
+  background-color: transparent;
+  width: 500px;
+  height: 34px;
+  padding-top: 3px;
+  margin: auto;
+  cursor: text;
+  font-size: 1.2em;
+  font-family: Helvetica,sans-serif;
+  font-weight: 300;
+  font-stretch: 100%;
+  line-height: 34px;
+  color: #242424;
+}
+
+.speech_mic{
+  display: flex;
+  margin-right: 20px;
 }
